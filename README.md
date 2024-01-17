@@ -1,0 +1,1 @@
+# Azure_static_webapp
