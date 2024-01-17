@@ -1,0 +1,42 @@
+.nav, .attractions, .footer, .footer form{
+  display: flex;
+  flex-flow: row wrap;
+}
+.nav {
+  justify-content: space-between;
+}
+.attractions div {
+  flex: 1 1 250px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #00695c;  
+  padding: 10px 10px 0 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+}
+.footer .copyright {
+  flex: 1 1 500px;
+  margin-right: 30px;
+  padding-left: 10px;
+}
+
+.footer .signup {
+  flex: 1 1 250px;
+  padding-right: 10px;
+}
+
+.signup input[type="email"] {
+  border-radius: 4px 0 0 4px;
+  flex: 1;
+}
+
+@media (max-width: 500px) {
+  .nav {
+    flex-flow: column;
+  }
+  .nav a {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+}

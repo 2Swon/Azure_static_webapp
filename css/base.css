@@ -1,0 +1,117 @@
+body {
+    background-color:teal;
+    margin: 0;
+  }
+  
+.header {
+  padding: 0;
+  /* margin-bottom: 10px; */
+  height: 60%;
+  background-image: url(../imgs/header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.nav {
+  padding: 10px;
+}
+.nav a {
+  padding-left: 0;
+  padding-right: 0;
+  width: 23%;
+}
+
+.main {
+  background-color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.main h2 {
+  font-size: 3.2rem;
+  color: #004d40;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer {
+  color: white;
+  padding: 20px;
+}
+
+.button {
+  background-color:teal;
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #4db6ac;
+}
+.title {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 37px;
+}
+.title h1 {
+  margin: 0;
+  color:white;
+  font-size: 4.2rem;
+}
+.title h2 {
+  margin: 0 0 20px 0;
+  color:white;
+  font-weight: 600;
+}
+
+
+
+.attractions h3 {
+  color: #00695c;
+  font-weight: bolder;
+  margin: 5px auto;
+}
+.attractions .more {
+  margin-top: auto;
+}
+
+.item img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.signup label {
+  width: 100%;
+}
+.signup input[type="submit"] {
+  border-radius: 0 4px 4px 0;
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+  
+  
+  
+  
